@@ -1,0 +1,23 @@
+{
+  "name" : "nia/parsing",
+  "description" : "Component to parse a specific value from a value.",
+  "require" : {
+    "php" : ">=7.0.0"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "parser" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Parsing\\" : "sources/",
+      "Test\\Nia\\Parsing\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
